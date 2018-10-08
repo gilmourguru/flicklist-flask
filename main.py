@@ -21,7 +21,7 @@ def index():
 
     # TODO: pick another random movie, and display it under
     # the heading "<h1>Tommorrow's Movie</h1>"
-    movie2 = get_random_movie()
+
     
     content += "<h1>Tomorrow's Movie</h1>"
     content += "<ul>"
