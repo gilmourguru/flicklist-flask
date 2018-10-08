@@ -33,7 +33,8 @@ def index():
 def get_random_movie():
     # TODO: make a list with at least 5 movie titles
     movies = ["The Big Lebowski", "Office Space", "Idiocracy", 
-    "The Wall", "National Lampoon's: Christmas Vaction"]
+    "The Wall", "National Lampoon's: Christmas Vaction", 
+    "The Karate Kid", "Ghostbusters", "Goldfinger", "The Goonies"]
     picks = random.sample(movies, 2)
     
     #return movies[pick]
